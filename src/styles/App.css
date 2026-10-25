@@ -1,16 +1,22 @@
-.playground{
-    width:50%;
-    height:50%;
+
+.playground {
+    width: 50%;
+    height: 50%;
     margin: auto;
+    position: relative;
 }
-body html .root {
+
+html,
+body,
+#root {
     height: 100%;
 }
-.ball{
+
+.ball {
     background-color: black;
     box-shadow: 0 10px 10px -6px;
     position: relative;
-    right: 0px;
+    left: 0;
     height: 50px;
     width: 50px;
     border-radius: 25px;
